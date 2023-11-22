@@ -15,6 +15,11 @@ jobs:
           packages: |
             any::tidyverse 
             any::plyr
+            any::plotly
+            any::ggbump
+            any::formattable
+            any::ggrepel
+            
       - name: Check out repository
         uses: actions/checkout@v3
 
