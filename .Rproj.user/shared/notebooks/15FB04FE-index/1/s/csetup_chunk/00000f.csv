@@ -1,0 +1,47 @@
+"0","knitr::opts_chunk$set(echo=FALSE,message=FALSE,warning = FALSE)"
+"0",""
+"0","# Setting Up"
+"0","library(tidyverse)"
+"0","library(plotly)"
+"2","Warning: package ‘plotly’ was built under R version 4.3.1"
+"2","Registered S3 method overwritten by 'data.table':
+  method           from
+  print.data.table     
+"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"2","
+Attaching package: ‘plotly’
+
+"
+"2","The following object is masked from ‘package:ggplot2’:
+
+    last_plot
+
+"
+"2","The following object is masked from ‘package:stats’:
+
+    filter
+
+"
+"2","The following object is masked from ‘package:graphics’:
+
+    layout
+
+"
+"0","# library(shiny)"
+"0","library(ggbump)"
+"2","Warning: package ‘ggbump’ was built under R version 4.3.1"
+"0","library(formattable)"
+"2","Warning: package ‘formattable’ was built under R version 4.3.1"
+"2","
+Attaching package: ‘formattable’
+
+"
+"2","The following object is masked from ‘package:plotly’:
+
+    style
+
+"

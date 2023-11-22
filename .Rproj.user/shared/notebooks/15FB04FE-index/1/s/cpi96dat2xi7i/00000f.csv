@@ -1,0 +1,10 @@
+"0","formattable(transfers_latest,list(
+  player_out = color_bar('#f28482'),
+  player_in = color_bar('#80ed99'),
+  gw = color_bar('#e9c46a'),
+  manager = color_bar('#48cae4')
+))
+"
+"2","Warning: NAs introduced by coercion"
+"2","Warning: NAs introduced by coercion"
+"2","Warning: NAs introduced by coercion"
