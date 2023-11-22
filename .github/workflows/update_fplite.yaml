@@ -22,7 +22,7 @@ jobs:
         run: Rscript -e 'source("fpl_lite_data_updater.R")'
         
       - name: Update Dashboard
-        run: Rscript -e "rmarkdown::render('index.Rmd')"
+        run: Rscript -e "rmarkdown::render('docs/index.Rmd')"
 
       - name: Commit results
         run: |
