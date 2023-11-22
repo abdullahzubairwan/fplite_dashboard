@@ -136,7 +136,7 @@ plot2 = ggplot(data_1,aes(x=event,y=weekly_league_rank,color = name,group = name
               legend.position = 'none'
               )+
         labs(title = paste0("Weekly Ranking Within Mini-League"),
-             y = "Global Rank",x = "Gameweek")
+             y = "League Standing",x = "Gameweek")
 
 # ggplotly(plot2)
 plot2
@@ -165,7 +165,7 @@ plot2_b = ggplot(data_1,aes(x=event,y=overall_rank,color = name,group = name))+
         legend.position = 'none'
         )+
   labs(title = paste0("Weekly Overall Ranking"),
-       y = "League Standing",x = "Participants")
+       y = "Global Rank",x = "Participants")
 
 # ggplotly(plot2_b)
 plot2_b
