@@ -136,7 +136,7 @@ plot2 = ggplot(data_1,aes(x=event,y=weekly_league_rank,color = name,group = name
               legend.position = 'none'
               )+
         labs(title = paste0("Weekly Ranking Within Mini-League"),
-             y = "League Standing",x = "Gameweek")
+             y = "Global Rank",x = "Gameweek")
 
 # ggplotly(plot2)
 plot2
